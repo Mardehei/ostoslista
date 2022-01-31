@@ -21,7 +21,7 @@ export default function App() {
           style={styles.input}
           onChangeText={item => setItem(item)}
           value={item}
-          placeholder="Type an item here"
+          placeholder="Type your item here"
         />
       <StatusBar style="auto" />
       <View style={styles.buttons}>
